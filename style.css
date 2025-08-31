@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 100%;
+    vertical-align: middle;
+
+}
+
+h2 {
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    vertical-align: middle;
+
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1280;
+    height: 78;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-right: 42px;
+    padding-bottom: 24px;
+    padding-left: 42px;
+}
+
+
+.menu {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* width: 209px;
+height: 27px; */
+    gap: 24px;
+
+}
+.container{
+    /* display: grid; */
+    /* grid-auto-rows: 1fr 1fr; */
+}
+
+.section1 {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    >.item:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 620;
+        height: 328;
+        /* min-width: 320px;
+max-width: 620px; */
+        gap: 48px;
+
+        >.btn button {
+            width: 211px;
+            height: 78px;
+            padding-top: 24px;
+            padding-right: 64px;
+            padding-bottom: 24px;
+            padding-left: 64px;
+            gap: 10px;
+            background-color: #2D2D2D;
+            color: White;
+            font-weight: 600;
+
+        }
+
+        >.item:nth-child(2) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.section2 {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 1280;
+    height: 130.8278350830078;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-right: 68px;
+    padding-bottom: 42px;
+    padding-left: 68px;
+
+}
+
+.section3 {
+    >.cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 24px;
+
+        >.card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 394.6666564941406;
+            height: 429;
+            /* min-width: 320px; */
+            gap: 42px;
+            padding-top: 64px;
+            padding-right: 42px;
+            padding-bottom: 64px;
+            padding-left: 42px;
+
+        }
+    }
+}
+
+.section4 {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    width: 1280;
+    height: 1030;
+    gap: 42px;
+
+    padding-top: 42px;
+    padding-right: 24px;
+    padding-bottom: 42px;
+    padding-left: 24px;
+
+    >.cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+        >.card {
+            text-align: left;
+        }
+
+    }
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1280;
+    height: 1030;
+    gap: 42px;
+    padding-top: 42px;
+    padding-right: 24px;
+    padding-bottom: 42px;
+    padding-left: 24px;
+
+    >.cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 24px;
+
+        >.card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            width: 394.6666564941406;
+            height: 330;
+            /* min-width: 320px; */
+            gap: 68px;
+            padding: 42px;
+            background-color: #F3F3F3;
+
+            >.scard {
+                display: flex;
+
+                >.item:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                }
+
+            }
+
+
+        }
+    }
+
+
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 1280;
+    height: 426;
+    gap: 24px;
+    padding-top: 42px;
+    padding-right: 24px;
+    padding-bottom: 86px;
+    padding-left: 24px;
+
+    >h2 {
+        text-align: left;
+    }
+
+    >.box {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        >.card:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            gap: 42px;
+
+            >.v {
+                display: flex;
+                gap: 24px;
+            }
+        }
+
+        >.card:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            width: 520;
+            gap: 24px;
+
+            >input[type="text"] {
+                background-color: #F3F3F3;
+                height: 59;
+                /* min-width: 320px; */
+                /* max-width: 520px; */
+                gap: 10px;
+
+                padding-top: 16px;
+                padding-right: 24px;
+                padding-bottom: 16px;
+                padding-left: 24px;
+                border: 0px;
+            }
+
+            >input[type="email"] {
+                background-color: #F3F3F3;
+                height: 59;
+                /* min-width: 320px; */
+                /* max-width: 520px; */
+                gap: 10px;
+
+                padding-top: 16px;
+                padding-right: 24px;
+                padding-bottom: 16px;
+                padding-left: 24px;
+                border: 0px;
+            }
+
+            >button {
+                width: 199px;
+                height: 78px;
+                gap: 10px;
+                padding-top: 24px;
+                padding-right: 64px;
+                padding-bottom: 24px;
+                padding-left: 64px;
+                background-color: black;
+                color: white;
+
+            }
+
+
+        }
+    }
+
+}
