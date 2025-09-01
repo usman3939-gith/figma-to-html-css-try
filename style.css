@@ -137,23 +137,28 @@ max-width: 620px; */
 
     >img:nth-child(1){
 width: 9.1vw;
-height: 4vh;
+object-fit: contain;
+/* height: 4vh; */
     }
     >img:nth-child(2){
         width: 6.8vw;
-        height: 3vh;
+        object-fit: contain;
+        /* height: 3vh; */
     }
     >img:nth-child(3){
         width: 9.3vw;
-        height: 2vh;
+        object-fit: contain;
+        /* height: 2vh; */
     }
     >img:nth-child(4){
         width: 2.97vw;
-        height: 3.5vh;
+        object-fit: contain;
+        /* height: 3.5vh; */
     }
     >img:nth-child(5){
         width: 5.07vw;
-                height: 3vh;
+        object-fit: contain;
+                /* height: 3vh; */
     }
 
 }
